@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap 3</title>
+    <!-- for displaying on different screens -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand">Tech Site</a>
+    </div>
+
+    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse navHeaderCollapse">
+
+        <ul class="nav navbar-nav navbar-right">
+
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li class="dropdown">
+
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+
+                <ul class="dropdown-menu">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google+</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Example<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"/>
+<script src="js/bootstrap.js"/>
+</body>
+</html>
