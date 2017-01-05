@@ -106,22 +106,38 @@
 <div class="modal fade" id="contact" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <p>Contact Tech Site</p>
-            </div>
-            <div class="modal-body">
-                <p>If you want to build your organization’s next web application with HTML5, this practical book
-                    will
-                    help you sort through the various frameworks, libraries, and development options that populate
-                    this
-                    stack. You’ll learn several of these approaches hands-on by writing multiple versions of a
-                    sample
-                    web app throughout the book.</p>
-            </div>
-            <div class="modal-footer">
-                <a class="btn btn-default" data-dismiss="modal">Close</a>
-                <a class="btn btn-primary" data-dismiss="modal">Close</a>
-            </div>
+            <form class="form-horizontal">
+                <div class="modal-header">
+                    <p>Contact Tech Site</p>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                        <div class="col-lg-10">
+                            <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="8"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" data-dismiss="modal">Close</a>
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
